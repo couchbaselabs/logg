@@ -14,7 +14,7 @@ A lightweight logging utility for Go.
 Import:
 
 ```
-import "github.com/couchbase/logg"
+import "github.com/couchbaselabs/logg"
 ```
 
 Log something:
@@ -43,7 +43,7 @@ logg.LogLevel = logg.LOG_LEVEL_PANICS
 
 # API docs
 
-The [API Docs](http://godoc.org/github.com/couchbase/logg) are available on godoc.org.
+The [API Docs](http://godoc.org/github.com/couchbaselabs/logg) are available on godoc.org.
 
 
 
