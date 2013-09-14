@@ -111,6 +111,11 @@ func LogError(err error) error {
 	return err
 }
 
+// Wrapper around Warn to provide consistent naming
+func LogWarn(format string, args ...interface{}) {
+	Warn(format, args)
+}
+
 // Logs a warning to the console
 func Warn(format string, args ...interface{}) {
 	if LogLevel <= 2 {
