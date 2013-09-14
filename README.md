@@ -4,12 +4,12 @@ A lightweight logging utility for Go.
 
 # Features
 
-* Simple log levels (1 == regular logs, 2 == warnings, 3+ == panics)
-* Keyword based log partitioning.  Eg, define a "REST" keyword for all REST related logs.
-* Log Timestamp which includes microseconds
 * Terminal color coded logs
+* Simple log levels (LOG_LEVEL_NORMAL, LOG_LEVEL_WARNINGS, LOG_LEVEL_PANICS)
+* Keyword based log partitioning.  Eg, define a "REST" keyword for all REST related logs, with easy ability to hide/show these logs.
+* Log Timestamp which includes microseconds
 
-# How to use Logg in your project
+# How to use in your project
 
 Import:
 
