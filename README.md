@@ -1,5 +1,6 @@
-
 A lightweight logging utility for Go.
+
+![screnshot](http://cl.ly/image/2l0Q1M123D1c/Screen%20Shot%202013-09-14%20at%2012.28.07%20PM.png)
 
 # Features
 
