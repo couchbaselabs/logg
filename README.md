@@ -14,7 +14,7 @@ A lightweight logging utility for Go.
 Import:
 
 ```
-import "github.com/couchbaselabs/logg"
+import "github.com/couchbase/logg"
 ```
 
 Log something:
