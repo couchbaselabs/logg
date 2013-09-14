@@ -21,7 +21,6 @@ Log something:
 
 ```
 logg.Log("hello")
-
 ```
 
 Setup keyword based log partitioning:
@@ -34,7 +33,6 @@ Log something to the "foo" channel:
 
 ```
 logg.LogTo("foo", "hello foo")
-
 ```
 
 Increase log level to only include panics:
