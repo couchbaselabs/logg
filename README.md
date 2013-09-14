@@ -9,7 +9,7 @@ A lightweight logging utility for Go.
 * Keyword based log partitioning.  Eg, define a "REST" keyword for all REST related logs, with easy ability to hide/show these logs.
 * Log Timestamp which includes microseconds
 
-# How to use in your project
+# Quick Start
 
 Import:
 
@@ -41,7 +41,9 @@ Increase log level to only include panics:
 logg.LogLevel = logg.LOG_LEVEL_PANICS
 ```
 
+# API docs
 
+The [API Docs](http://godoc.org/github.com/couchbase/logg) are available on godoc.org.
 
 
 
